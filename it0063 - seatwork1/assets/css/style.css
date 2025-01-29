@@ -10,7 +10,7 @@
 }
 
 body.bg {
-    background: url('../assets/img/feubg.png') no-repeat center center fixed;
+    background: url('/assets/img/feubg.png') no-repeat center center fixed;
     background-size: cover;
     position: relative;
     background-color: #CCCCCC;
@@ -115,6 +115,42 @@ button#sort-gwa {
 }
 
 button#sort-gwa:hover {
+    transform: scale(1.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+button#sort-name {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+    color: white;
+    background-color: #f9ba18;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button#sort-name:hover {
+    transform: scale(1.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+button#sort-student-no {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+    color: white;
+    background-color: #f9ba18;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button#sort-student-no:hover {
     transform: scale(1.2);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
 }
