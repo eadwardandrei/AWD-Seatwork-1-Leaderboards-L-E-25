@@ -4,10 +4,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/eadwardandrei/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/eadwardlogo.png" alt="Eadward" width="130" height="100">
-  </a>
+  
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">FEU Tech Student Leaderboards</h3>
 </div>
