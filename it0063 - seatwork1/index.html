@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Legends University Top Students</title>
+
+    <link rel="stylesheet" href ="./assets/css/style.css">
+</head>
+<body class="bg">
+    <img src=feutechlogo.png alt="logo" class="feutechlogo"></img>
+    <header>
+        <div class="title">Far Eastern University, Institute of Technology</div>
+    </header>
+    <div class="subtitle">Student Leaderboards</div>
+
+    <div class="leaderboards">
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Student No.</th>
+                <th>Name</th>
+                <th>Section</th>
+                <th>GWA <button id="sort-gwa">⇅</button></th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="transaction-list">
+        </tbody>
+    </table>
+</div>
+
+<div class="group">
+    <label for="student-number">Student No.</label>
+    <input type="text" id="student-number" placeholder="Enter student number">
+
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" placeholder="Enter name">
+
+    <label for="section">Section</label>
+    <input type="text" id="section" placeholder="Enter section">
+
+    <label for="value">GWA</label>
+    <input type="number" step="0.01" name="gwa" id="gwa" placeholder="Enter  GWA">
+
+    <button id="add" onclick="AddTransaction()">Add</button>
+</div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
