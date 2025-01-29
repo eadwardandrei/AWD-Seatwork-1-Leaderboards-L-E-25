@@ -45,9 +45,6 @@
       </ol>
     </li>
     <li>
-      <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
-    </li>
-    <li>
       <a href="#resources">Resources</a>
     </li>
   </ol>
