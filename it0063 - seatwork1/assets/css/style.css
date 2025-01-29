@@ -10,7 +10,7 @@
 }
 
 body.bg {
-    background: url('feubg.png') no-repeat center center fixed;
+    background: url('/feubg.png') no-repeat center center fixed;
     background-size: cover;
     position: relative;
 }
