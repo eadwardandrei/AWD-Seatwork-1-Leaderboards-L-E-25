@@ -10,9 +10,10 @@
 }
 
 body.bg {
-    background: url('../img/feubg.png') no-repeat center center fixed;
+    background: url('../assets/img/feubg.png') no-repeat center center fixed;
     background-size: cover;
     position: relative;
+    background-color: #CCCCCC;
 }
 
 body.bg::before {
